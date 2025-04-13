@@ -1,3 +1,8 @@
+.organizacaoVinhos {
+    display: flex; /* Aplica o modelo Flexbox */
+    justify-content: space-between; /* Espaça as imagens igualmente */
+    flex-wrap: wrap; /* Permite que as imagens quebrem para a linha seguinte caso não caibam na mesma linha */
+  }
 .container {
     position: relative;
     width: 200px;
