@@ -30,7 +30,7 @@ img {
 }
 
 .filtros {
-    height: 100vh;
+    height: 100vh auto;
     width: 250px;
     padding: 20px;
     border-right: 2px solid #ccc;
