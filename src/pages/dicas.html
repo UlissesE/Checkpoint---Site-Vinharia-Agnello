@@ -5,8 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinheiria_Agnello</title>
     <link rel="stylesheet" href="../css/dicas.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 </head>
 <body>
+    <div class="fundo"></div>
+    <header>
+        <div class="logo">Vinheria Agnello</div>
+        <nav class="menu">
+          <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="catalogo.html">Catalogo</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="dicas.html">Dicas</a></li>
+            <li><a href="sobre_nos.html">Sobre Nos</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="subtitulo">
+        Encontre os melhores vinhos naturais e orgânicos aqui! 
+        São diversas opções para harmonizar, degustar, presentear e viver uma experiência inesquecível.
+    </div>
+    <div class="conteudoPrincipal">
+        <div class="formulario">
+        <form id="form-degustacao">
+          <fieldset>
+           <h2 style="font-size: 40px;">Formulário para degustar</h2><br>
+            <p><strong>Preferências de vinhos:</strong><br>
+              <input type="checkbox" name="tipo" value="branco"> Branco<br>
+              <input type="checkbox" name="tipo" value="tinto"> Tinto<br>
+              <input type="checkbox" name="tipo" value="rose"> Rose<br>
+              <input type="checkbox" name="tipo" value="espumante"> Espumante<br>
+              <input type="checkbox" name="tipo" value="doce"> Doce<br>
+              <input type="checkbox" name="tipo" value="fortificado"> Fortificado
+            </p>
+            
+            <p>
+                <strong>Tipo de comida que você gostaria de degustar:</strong><br>
+                <input type="radio" name="comida" value="frutos_do_mar"> Frutos do mar<br>
+                <input type="radio" name="comida" value="carne"> Carne<br>
+                <input type="radio" name="comida" value="vegetariano"> Vegetariano<br>
+                <input type="radio" name="comida" value="queijo"> Queijo<br>
+                <input type="radio" name="comida" value="sobremesa"> Sobremesa<br>
+            </p>
+            <p><strong>Horario de preferência para degustar:</strong><br>
+              <select style="font-size: 20px;">
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+              </select>
+            </p>
+      
+            <p style="font-size: 20px;"><strong>Email para contato:</strong><br>
+              <input type="text" placeholder="Email" style="font-size: 20px;">
+            </p>
+        </select><br>
+        <button type="submit" style="font-size: 20px;" class="form-botao">Enviar</button>
+          </fieldset>
+          </form>
+        </div>
+
     <div class="organizacaoVinhos">
         <div class="container">
         <img class ="imagem" src="../assets/imgs/vinhosDicas/vinho_cloudy_bay_sauvignon_blanc.jpg" alt="Vinho branco">
@@ -19,7 +76,7 @@
 
         <div class="container">
             <img class ="imagem" src="../assets/imgs/vinhosDicas/vinhoTinto.jpg" alt="Vinho tinto">
-            <div class="texto">
+            <div class="texto" style="font-size: 15px;">
                 O Château Lafite Rothschild é um dos vinhos tintos mais prestigiados do mundo. 
                 Com aromas de frutas negras, tabaco e cedro, e um paladar elegante e 
                 estruturado, este vinho é complexo, com taninos firmes e um final longo e persistente.
@@ -29,17 +86,18 @@
 
         <div class="container">
             <img class ="imagem" src="../assets/imgs/vinhosDicas/vinhoRose.jpg" alt="Vinho rose">
-            <div class="texto">
-                O Château d'Esclans Whispering Angel tem um aroma fresco e delicado, com notas de frutas vermelhas como morango e framboesa, 
+            <div class="texto" style="font-size: 15px;">
+                O Château d'Esclans Whispering Angel é um dos exemplos de vinhos roses. Possui um aroma fresco e delicado, com notas de frutas vermelhas como morango e framboesa, 
                 e toques florais e de cítricos. É Leve e refrescante, com uma acidez equilibrada que traz frescor. ideal para acompanhar pratos leves, 
                 como saladas, frutos do mar, sushi ou queijos frescos. Também vai bem com frango grelhado e pratos mediterrâneos.
             </div>
         </div>
-
+    </div>
+    <div class="organizacaoVinhos">	
         <div class="container">
             <img class ="imagem" src="../assets/imgs/vinhosDicas/vinhoEspumante.png" alt="Vinho espumante">
-            <div class="texto">
-                O Dom Pérignon possui aromas complexos de frutas maduras, pão fresco, amêndoas e toques sutis de baunilha. 
+            <div class="texto" style="font-size: 15px;">
+                O Dom Pérignon, um vinho espumante, possui aromas complexos de frutas maduras, pão fresco, amêndoas e toques sutis de baunilha. 
                 Com o tempo, pode desenvolver notas de mel e tostado. 
                 O sabor é rico, com notas de frutas e cremosidade. Perfeito para acompanhar aperitivos 
                 como caviar ou ostra, frutos do mar como lagosta, ou pratos mais refinados, como filet mignon ou queijos curados.
@@ -48,19 +106,29 @@
 
         <div class="container">
             <img class ="imagem" src="../assets/imgs/vinhosDicas/vinhoDoce.jpg" alt="Vinho doce">
-            <div class="texto">
+            <div class="texto" style="font-size: 17px;">
                 O Château d’Yquem Aromas intensos de damasco, mel, laranja cristalizada e flores brancas, com sabor doce, elegante e equilibrado.
                 Harmoniza com foie gras, queijos azuis, sobremesas com frutas e até pratos apimentados da culinária asiática.
+                Reconhecido como um dos melhores vinhos doces do mundo
             </div>
         </div>
 
         <div class="container">
             <img class ="imagem" src="../assets/imgs/vinhosDicas/vinhoFortificado.png" alt="Vinho fortiticado">
-            <div class="texto">
-                O Château d’Yquem Aromas intensos de damasco, mel, laranja cristalizada e flores brancas, com sabor doce, elegante e equilibrado.
-                Harmoniza com foie gras, queijos azuis, sobremesas com frutas e até pratos apimentados da culinária asiática.
+            <div class="texto"  style="font-size: 17px;">
+                O Château d’Yquem é um ótimo exemplo de vinho fortificado, com aromas intensos de damasco, mel, laranja cristalizada e flores brancas, 
+                com sabor doce, elegante e equilibrado.
+                Harmoniza com foie gras, queijos azuis, sobremesas com frutas e até pratos apimentados da culinária asiática. 
             </div>
         </div>
     </div>
+
+        <div class="banner">
+            <div class="banner-texto">
+              💬 Quer falar com a gente? Estamos aqui para te ajudar!
+            </div>
+            <button class="banner-botao">Entrar em contato</button>
+        </div>
+        <script src="../js/dicas.js"></script>
 </body>
 </html>
