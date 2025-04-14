@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+
+  body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  .filtros h2 {
+    color: beige;
+  }
+
+  .filtros label {
+    color: beige;
+  }
+
+img {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.filtros {
+    height: 100vh;
+    width: 250px;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+    background-color: rgb(114, 23, 23);
+    color: white;
+}
+
+.catalogo {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: bisque;
+}
+
+.item {
+    display: inline-block;
+    width: 200px;
+    overflow: auto;
+    margin: 10px;
+    border: 1px solid white;
+}
