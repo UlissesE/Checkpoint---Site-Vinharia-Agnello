@@ -8,8 +8,9 @@
 </head>
 <body>
     <div class="container">
-        <aside class="filtros">
+        <div class="filtros">
             <h2>Filtros</h2>
+            <h3>Tipos de vinho</h3>
             <label>
               <input type="checkbox" name="categoria" value="branco"> Vinho Branco
             </label>
@@ -33,46 +34,71 @@
             <label>
                 <input type="checkbox" name="categoria" value="tinto"> Vinho Tinto
             </label>
-            <br>
-        </aside>
+            <br><br>
 
-        <main class="catalogo">
+            <hr>
+
+            <h3>País</h3>
+            <label>
+                <input type="checkbox" name="pais" value="franca"> França
+            </label>
+            <br><br>
+            <label>
+                <input type="checkbox" name="pais" value="nvzelandia"> Nova Zelândia
+            </label>
+            <br><br>
+            <label>
+                <input type="checkbox" name="pais" value="portugal"> Portugal
+            </label>
+            <br><br>
+        </div>
+
+        <div class="catalogo">
             <h1>Catálogo de vinhos:</h1>
 
             <div class="item" data-categoria="branco">
                 <img src="../assets/imgs/vinhosDicas/vinho_cloudy_bay_sauvignon_blanc.jpg" alt="Vinho Branco">
-                <p>🍷 Bordeaux - França - Tinto</p>
+                <p>🍷 inho Cloudy Bay Sauvignon Blanc 750ml</p>
+                <span>Vinho Branco</span> <span>-</span> <span>Nova Zelândia</span>
             </div>
 
             <div class="item" data-categoria="doce">
                 <img src="../assets/imgs/vinhosDicas/vinhoDoce.jpg" alt="Vinho Doce">
-                <p>🍷 Bordeaux - França - Tinto</p>
+                <p>🍷 Château d'Yquem 2018 750ml</p>
+                <br>
+                <span>Vinho Doce</span> <span>-</span> <span>França</span>
             </div>
 
             <div class="item" data-categoria="espumante">
                 <img src="../assets/imgs/vinhosDicas/vinhoEspumante.png" alt="Vinho Espumante">
-                <p>🍷 Bordeaux - França - Tinto</p>
+                <p>🍷 Dom Perignon Blanc Vintage 2008 750ml</p>
+                <span>Vinho Espumante</span> <span>-</span> <span>França</span>
             </div>
 
             <div class="item" data-categoria="fortificado">
                 <img src="../assets/imgs/vinhosDicas/vinhoFortificado.png" alt="Vinho Fortificado">
-                <p>🍷 Bordeaux - França - Tinto</p>
+                <p>🍷 Vinho do Porto Vintage Fonseca 2007 750ml</p>
+                <span>Vinho Fortificado</span> <span>-</span> <span>Portugal</span>
             </div>
 
             <div class="item" data-categoria="rose">
                 <img src="../assets/imgs/vinhosDicas/vinhoRose.jpg" alt="Vinho Rosé">
-                <p>🍷 Bordeaux - França - Tinto</p>
+                <p>🍷 Vinho Whispering Angel 750ml</p>
+                <br>
+                <span>Vinho Rosé</span> <span>-</span> <span>França</span> 
             </div>
 
             <div class="item" data-categoria="tinto">
                 <img src="../assets/imgs/vinhosDicas/vinhoTinto.jpg" alt="Vinho Tinto">
-                <p>🍷 Bordeaux - França - Tinto</p>
+                <p>🍷 Carruades de Lafite 705ml</p>
+                <br>
+                <span>Vinho Tinto</span> <span>-</span> <span>França</span>
             </div>
 
 
             
             
-        </main>
+        </div>
     </div>
 
 </body>

@@ -14,12 +14,17 @@
     color: beige;
   }
 
+.filtros h3{
+  color: beige;
+}
+
   .filtros label {
     color: beige;
   }
 
 img {
     height: 480px;
+    max-height: 500px;
     max-width: 300px;
     object-fit: cover;
     background-color: white;
@@ -50,11 +55,12 @@ img {
     background-color: white;
     display: inline-block;
     width: 300px;
+    height: 600px;
+    max-height: 600px;
     overflow: auto;
     margin: 10px;
     border: 1px solid white;
     text-align: center;
     align-items: center;
-    overflow:hidden
+    overflow: hidden; 
 }
-
