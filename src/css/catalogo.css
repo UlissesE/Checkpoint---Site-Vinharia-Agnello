@@ -1,28 +1,68 @@
-* {
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    color: black;
-  }
+header {
+  background-color: #6d0b0b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+}
 
-  body {
-    margin: 0;
-    border: 0;
-    padding: 0;
-  }
+.logo-vinheria {
+  display: flex;
+  align-items: center;
+}
+
+.logo-vinheria img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-vinheria span {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+
 
   .filtros h2 {
-    color: beige;
+    color: black;
+
   }
 
 .filtros h3{
-  color: beige;
+  color: black;
+
 }
 
   .filtros label {
-    color: beige;
+    color: black;
+
   }
 
-img {
+.item img {
     height: 480px;
     max-height: 500px;
     max-width: 300px;
@@ -40,8 +80,7 @@ img {
     width: 250px;
     padding: 20px;
     border-right: 2px solid #ccc;
-    background-color: rgb(114, 23, 23);
-    color: white;
+    background-color: white;
 }
 
 .catalogo {
@@ -65,54 +104,14 @@ img {
     overflow: hidden; 
 }
 
-header {
-  background-color: #6d0b0b;
-  color: beige;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 30px;
-}
-
-header span {
-  color: beige;
-}
-
-.logo-vinheria {
-  display: flex;
-  align-items: center;
-}
-
-.logo-vinheria img {
-  width: 50px;
-  height: auto;
-  margin-right: 10px;
-}
-
-.logo-vinheria span {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 20px;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
 footer {
   background-color: #6d0b0b;
-  color: beige;
+  color: white;
   text-align: center;
   padding: 50px;
   font-size:0.9em;
 }  
 
 footer p {
-  color: beige;
+  color: white;
 }
