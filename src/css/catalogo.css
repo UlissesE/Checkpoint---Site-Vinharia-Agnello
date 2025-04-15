@@ -59,6 +59,7 @@ nav ul li a {
 
 .catalogo {
   background-color: white;
+  display: relative;
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
@@ -71,7 +72,7 @@ nav ul li a {
   background-size: cover;
   background-position: center;
   opacity: 0.15;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -90,7 +91,9 @@ nav ul li a {
   height: 600px;
   max-height: 600px;
   text-align: center;
+  overflow: hidden;
 }
+
 
 .item img {
   background-color: white;
@@ -103,6 +106,9 @@ nav ul li a {
 
 .item:hover {
   box-shadow: 0 0 3px black;
+  height: 700px;
+  max-height: 700px;
+  overflow-y: scroll;
 }
 
 footer {
@@ -111,5 +117,6 @@ footer {
   text-align: center;
   font-size: 0.9em;
   padding: 50px;
-  position: fixed;
+  position: relative;
+  z-index: 1;
 }
