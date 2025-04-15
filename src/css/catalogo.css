@@ -104,7 +104,13 @@ body {
     text-align: center;
     align-items: center;
     overflow: hidden; 
+    position: relative;
 }
+
+.item:hover {
+  box-shadow: 0 0 8px black;
+}
+
 
 footer {
   background-color: #6d0b0b;
