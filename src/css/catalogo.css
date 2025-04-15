@@ -1,7 +1,7 @@
 header {
+  display: flex;
   background-color: #6d0b0b;
   color: white;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 30px;
@@ -13,9 +13,9 @@ header {
 }
 
 .logo-vinheria img {
+  margin-right: 10px;
   width: 50px;
   height: auto;
-  margin-right: 10px;
 }
 
 .logo-vinheria span {
@@ -37,102 +37,79 @@ nav ul li a {
   text-decoration: none;
 }
 
+
 body {
   margin: 0;
   border: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-
-}
-
-
-
-  .filtros h2 {
-    color: black;
-
-  }
-
-.filtros h3{
-  color: black;
-
-}
-
-  .filtros label {
-    color: black;
-
-  }
-
-.item img {
-    height: 480px;
-    max-height: 500px;
-    max-width: 300px;
-    object-fit: cover;
-    background-color: white;
 }
 
 .container {
-    display: flex;
-    min-height: 100vh;
+  display: flex;
+  min-height: 100vh;
 }
 
 .filtros {
-    height: 100vh auto;
-    width: 250px;
-    padding: 20px;
-    border-right: 2px solid #ccc;
-    background-color: white;
+  background-color: white;
+  border-right: 2px solid #ccc;
+  padding: 20px;
+  height: 100vh;
+  width: 250px;
 }
 
 .catalogo {
-    flex: 1;
-    position: relative;
-    z-index: 1;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: bisque;
-}
-
-.item {
-    background-color: white;
-    display: inline-block;
-    width: 300px;
-    height: 600px;
-    max-height: 600px;
-    overflow: auto;
-    margin: 10px;
-    border: 1px solid white;
-    text-align: center;
-    align-items: center;
-    overflow: hidden; 
-    position: relative;
-}
-
-.item:hover {
-  box-shadow: 0 0 8px black;
-}
-
-
-footer {
-  background-color: #6d0b0b;
-  color: white;
-  text-align: center;
-  padding: 50px;
-  font-size:0.9em;
-}  
-
-footer p {
-  color: white;
+  background-color: bisque;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  flex: 1;
+  z-index: 1;
 }
 
 .catalogo .fundo {
   background-image: url('../assets/imgs/vinho_derramando.jpg');
   background-size: cover;
   background-position: center;
-  opacity: 0.15; /* só a imagem */
+  opacity: 0.15;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+.item {
+  display: inline-block;
+  position: relative;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 10px;
+  width: 300px;
+  height: 600px;
+  max-height: 600px;
+  text-align: center;
+}
+
+.item img {
+  background-color: white;
+  box-shadow: 0 1px black;
+  height: 480px;
+  max-height: 500px;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.item:hover {
+  box-shadow: 0 0 8px black;
+}
+
+footer {
+  background-color: #6d0b0b;
+  color: white;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 50px;
 }
