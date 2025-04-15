@@ -1,3 +1,10 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
 header {
   display: flex;
   background-color: #6d0b0b;
@@ -35,14 +42,6 @@ nav ul {
 nav ul li a {
   color: white;
   text-decoration: none;
-}
-
-
-body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -112,4 +111,5 @@ footer {
   text-align: center;
   font-size: 0.9em;
   padding: 50px;
+  position: fixed;
 }
