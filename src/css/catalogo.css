@@ -85,6 +85,8 @@ body {
 
 .catalogo {
     flex: 1;
+    position: relative;
+    z-index: 1;
     padding-left: 20px;
     padding-right: 20px;
     background-color: bisque;
@@ -114,4 +116,17 @@ footer {
 
 footer p {
   color: white;
+}
+
+.catalogo .fundo {
+  background-image: url('../assets/imgs/vinho_derramando.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15; /* só a imagem */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
