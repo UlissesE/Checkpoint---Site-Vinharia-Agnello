@@ -1,13 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinharia_Agnello</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="descricao" content="Vinheria Agnello - HOME"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinheria Agnello</title>
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/styles.css" />
 </head>
 <body>
+    <div class="corpo-da-pagina">
+        <header>
+            <div class="logo-vinheria">
+                <img src="favicon-32x32.png" alt="Logo Vinheria Agnello" />
+                <span>Vinheria Agnello</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="src/pages/catalogo.html">Catálogo</a></li>
+                    <li><a href="src/pages/contato.html">Contato</a></li>
+                    <li><a href="src/pages/dicas.html">Dicas</a></li>
+                    <li><a href="src/pages/dicas.html">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </header>
+   
+        <main>
+            <div class="carrossel-wrapper">
+                <div class="carrossel-container">
+                    <div class="carrossel-slide">
+                        <img src="src/assets/imgs/promo1.jpg" alt="Promoção 1">
+                    </div>
+                    <div class="carrossel-slide">
+                        <img src="src/assets/imgs/promo2.jpg" alt="Promoção 2">
+                    </div>
+                    <div class="carrossel-slide">
+                        <img src="src/assets/imgs/promo3.png" alt="Promoção 3">
+                    </div>
+                    <button class="carrossel-prev">&#10094;</button>
+                    <button class="carrossel-next">&#10095;</button>
+                </div>
+            </div>
+                <br><br><br><br>
 
+            <!-- texto 1-->
+            <div class="texto-apr">
+                <h2>Bem-vindo à Vinheria Agnello!</h2>
+                <p>Em cada garrafa, uma história, e em cada taça, uma experiência única. Prepare-se para viver momentos inesquecíveis no mundo do vinho! Na Vinheria Agnello, nosso compromisso é proporcionar a você não apenas a degustação de vinhos, mas uma verdadeira viagem sensorial. Nosso espaço foi pensado para acolher tanto iniciantes quanto apaixonados mais experientes, oferecendo um ambiente aconchegante e sofisticado para todos.
+
+                    Aqui, você encontrará uma seleção exclusiva de vinhos de diversas regiões do mundo, cuidadosamente escolhidos para agradar os paladares mais exigentes. Quer você esteja começando a explorar esse universo ou já seja um conhecedor, temos algo especial esperando por você.
+                    
+                    Além disso, convidamos você a se juntar a nós nos eventos exclusivos que preparamos. São noites de descobertas, harmonizações e experiências imersivas que prometem despertar todos os seus sentidos. Venha vivenciar a verdadeira arte do vinho e faça parte da nossa história. Estamos ansiosos para recebê-lo!</p>
+            </div>
+
+            <!-- texto eventos -->  
+            <div class="eventos">
+                <h3 class="titulo">Próximos Eventos</h3>
+                <ul>
+                    <li><strong>Festival de Vinhos Exclusivos</strong> - 20 de maio de 2025</li>
+                    <li><strong>Jantar Harmonizado</strong> - 3 de junho de 2025</li>
+                    <li><strong>Workshop de Vinho e Queijos</strong> - 17 de junho de 2025</li>
+                    <li><strong>Noite dos Rótulos Premium</strong> - 7 de julho de 2025</li>
+                    <li><strong>Tour de Vinhos da Região</strong> - 25 de julho de 2025</li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2025 – Todos os direitos reservados</p>
+        </footer>
+    </div>
+    <script src="src/js/app.js"></script>
 </body>
 </html>
