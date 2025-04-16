@@ -3,6 +3,23 @@
     padding: 0;
     box-sizing: border-box;
   }
+      
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fdf6e3;
+    font-family: 'Lato', sans-serif;
+    color: #2c2c2c;
+    line-height: 1.6;
+  }
   
   header {
     background-color: #3f0303;
@@ -21,6 +38,7 @@
     list-style: none;
     display: flex;
     gap: 15px;
+    z-index: 1;
   }
   
   .menu a {
@@ -28,13 +46,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
-  }
-
-  body {
-    background-color: #fdf6e3;
-    font-family: 'Lato', sans-serif;
-    color: #2c2c2c;
-    line-height: 1.6;
+    z-index: 1;
   }
 
   h1, h2 {
@@ -59,8 +71,68 @@
   }
 
   .imagemVinhos {
+    margin-top: 50px;
     max-width: 300px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .comoTrabalhamos {
+    margin-top: 10px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .dificuldades {
+    margin-top: 20px;
+    max-width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .caixa-direita {
+    position: fixed;
+    top: 100px;
+    right: 80px;
+    width: 400px;
+    height: 740px;   
+    font-size: 17px;   
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+  }
+  
+  .armazemVinhos {
+    margin-top: 40px;
+    margin-left: 30px;
+    max-width: 300px;
+    transform: scale(1.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  .rodape {
+    width: 100%; 
+    background-color: #3f0303;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    margin: 0; 
+  }
+    
+  .rodape-conteudo {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
   }
