@@ -4,18 +4,47 @@
   box-sizing: border-box;
 }
 
-
 header {
-  background-color: #3f0303;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #6d0b0b;
   color: white;
-  font-weight: bold;
-  font-size: 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 26px 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,10);
-  z-index: 1;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+}
+
+.logo-vinheria {
+  display: flex;
+  align-items: center;
+}
+
+.logo-vinheria span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logo-vinheria img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-right: 70px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 body {
@@ -329,4 +358,8 @@ iframe {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.rodape-conteudo p {
+  color: white;
 }
