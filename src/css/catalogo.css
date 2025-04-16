@@ -92,6 +92,11 @@ nav ul li a {
   max-height: 600px;
   text-align: center;
   overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.vinho-box:hover {
+  transform: scale(1.03);
 }
 
 
@@ -106,9 +111,8 @@ nav ul li a {
 
 .item:hover {
   box-shadow: 0 0 3px black;
-  height: 700px;
-  max-height: 700px;
   overflow-y: scroll;
+  transform: scale(1.03);
 }
 
 footer {
