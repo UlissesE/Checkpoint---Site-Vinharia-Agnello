@@ -35,16 +35,46 @@
     </section>
 
     <section class="section-form">
-      <fieldset>
-        <div class="form_title">
-          <h1>Formulário para contato</h1>
-          <h3>Estamos ansiosos para te ouvir 😊</h3>
-        </div>
-        <div class="form__content">
+      <div class="form">
+        <form method="post" id="form__contato">
+          <fieldset>
+            <div class="form__title">
+              <h1>Formulário para contato</h1>
+              <h3>Estamos ansiosos para te ouvir 😊</h3>
+              <br>
+            </div>
+            <div class="form__content">
+              <label for="nome">
+                <strong>Qual seu nome?</strong>
+                <input type="text" id="nome" name="nome">
+              </label><br>
+    
+              <label for="email">
+                <strong>Qual seu email para contato?</strong>
+                <input type="email" id="email" name="email">
+              </label><br>
+    
+              <label for="cpf">
+                <strong>Qual seu CPF?</strong>
+                <input type="text" id="cpf" name="cpf">
+              </label><br>
+    
+              <p><strong>Qual o motivo do contato?</strong></p>
+              <label><input type="radio" name="motivo" value="duvidas-produtos"> 📦 Dúvidas sobre produtos</label><br>
+              <label><input type="radio" name="motivo" value="info-entrega"> 🚚 Informações sobre entrega</label><br>
+              <label><input type="radio" name="motivo" value="problema-pagamento"> 💳 Problemas com pagamento</label><br>
+              <label><input type="radio" name="motivo" value="sugestao"> 🍷 Sugestão de vinho ou serviço</label><br>
+              <label><input type="radio" name="motivo" value="troca"> 🛒 Troca ou devolução</label><br>
+              <label><input type="radio" name="motivo" value="elogio-ou-reclamacao"> 📢 Reclamações ou elogios</label><br>
+              <label><input type="radio" name="motivo" value="outros"> 💬 Outros assuntos</label><br>
 
-        </div>
-      </fieldset>
+              <button type="submit" class="btn-enviar">Enviar mensagem</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </section>
+    
   </div>
   
   <footer>

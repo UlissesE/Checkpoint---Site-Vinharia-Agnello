@@ -71,8 +71,20 @@ nav ul li a {
 .section-form fieldset {
     border: 1px solid #ccc; /* só para visualização */
     padding: 20px;
-    max-width: 600px;
-    width: 100%;
+}
+
+.form {
+    display: flex;
+    padding: 20px;
+    max-width: 600px; 
+}
+
+.form__title {
+    text-align: center;
+}
+
+label {
+    display: block;
 }
 
 footer {
@@ -82,6 +94,6 @@ footer {
     font-size: 0.9em;
     padding: 50px;
     bottom: 0;
-    position: fixed;
+    position: relative;
     width: 100%;
   }
