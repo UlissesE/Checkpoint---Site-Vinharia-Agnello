@@ -342,25 +342,15 @@ iframe {
 }
 
 .rodape {
-  width: 100%; 
-  background-color: #3f0303;
-  color: #fff;
-  padding: 20px 0;
+  background-color: #6d0b0b;
+  color: white;
   text-align: center;
-  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
-  font-size: 14px;
-  margin: 0; 
+  font-size: 0.9em;
+  padding: 50px;
+  position: relative;
 }
 
-.rodape-conteudo {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
 
 .rodape-conteudo p {
   color: white;
