@@ -78,8 +78,14 @@ nav ul li a {
 
 form fieldset {
     border: 1px solid #ccc;
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2); 
     padding: 20px;
     border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+form fieldset:hover {
+    transform: scale(1.03);
 }
 
 .form__title {
@@ -128,7 +134,11 @@ form fieldset {
     border-radius: 10px;
     min-width: 50vh;
     padding: 0 1%;
+    transition: transform 0.2s;
+}
 
+.canal:hover {
+    transform: scale(1.03);
 }
 
 .canal h2, .canal p {
