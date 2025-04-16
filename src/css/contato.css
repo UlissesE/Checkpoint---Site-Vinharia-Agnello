@@ -98,7 +98,7 @@ form fieldset:hover {
   margin: 10px 10px 5px 0;
 }
 
-.form__content input#nome, .form__content input#email, .form__content input#telefone{
+#nome, #email, #telefone{
     width: 100%;
     padding: 8px;
     margin-top: 4px;
