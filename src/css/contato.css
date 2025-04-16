@@ -66,25 +66,52 @@ nav ul li a {
     justify-content: center;
     align-content: center;
     padding: 5vh;
+    min-height: 100vh;
 }
 
-.section-form fieldset {
-    border: 1px solid #ccc; /* só para visualização */
-    padding: 20px;
-}
 
 .form {
-    display: flex;
+    width: 100%;
+    max-width: 600px;
     padding: 20px;
-    max-width: 600px; 
+}
+
+form fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .form__title {
     text-align: center;
+    margin-bottom: 20px;
 }
 
-label {
-    display: block;
+.form__content label {
+  display: block;
+  margin: 10px 10px 5px 0;
+}
+
+.form__content input#nome, .form__content input#email, .form__content input#cpf{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-enviar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6d0b0b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn-enviar:hover {
+   background-color: #3a0f0f;
 }
 
 footer {
@@ -96,4 +123,4 @@ footer {
     bottom: 0;
     position: relative;
     width: 100%;
-  }
+}
