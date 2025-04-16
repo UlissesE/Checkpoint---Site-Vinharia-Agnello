@@ -246,3 +246,47 @@ body {
     color: #444;
   }
 
+  .tabela-uvas {
+    padding: 40px 20px;
+    background-color: #f9f3ef;
+    border-radius: 16px;
+    margin-top: 40px;
+    border: 1px solid black;
+  }
+  
+  .tabela-uvas h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #5e2c04;
+  }
+  
+  .tabela-uvas table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .tabela-uvas th,
+  .tabela-uvas td {
+    padding: 14px 20px;
+    text-align: left;
+  }
+  
+  .tabela-uvas thead {
+    background-color: #e7d5c3;
+    color: #2f1b10;
+  }
+  
+  .tabela-uvas tbody tr:nth-child(even) {
+    background-color: #f4f0ed;
+  }
+  
+  .tabela-uvas tbody tr:hover {
+    background-color: #fce8d6;
+    transition: background-color 0.3s ease;
+  }
