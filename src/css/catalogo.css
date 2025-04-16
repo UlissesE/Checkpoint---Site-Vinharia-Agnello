@@ -67,7 +67,7 @@ nav ul li a {
 }
 
 .catalogo .fundo {
-  background-image: url('../assets/imgs/vinho_derramando.jpg');
+  background-color: gray;
   background-size: cover;
   background-position: center;
   opacity: 0.15;
