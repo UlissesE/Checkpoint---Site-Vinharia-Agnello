@@ -106,6 +106,23 @@ form fieldset:hover {
     border-radius: 5px;
 }
 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  textarea:focus {
+    border-color: #6c63ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+  }
+
 .btn-enviar {
     margin-top: 20px;
     padding: 10px 20px;
