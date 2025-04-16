@@ -59,7 +59,6 @@ nav ul li a {
 
 .catalogo {
   background-color: white;
-  display: relative;
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
@@ -72,7 +71,7 @@ nav ul li a {
   background-size: cover;
   background-position: center;
   opacity: 0.15;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
