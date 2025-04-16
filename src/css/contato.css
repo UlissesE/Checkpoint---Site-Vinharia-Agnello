@@ -61,6 +61,20 @@ nav ul li a {
     font-size: 200%;
 }
 
+.section-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5vh;
+}
+
+.section-form fieldset {
+    border: 1px solid #ccc; /* só para visualização */
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
 footer {
     background-color: #6d0b0b;
     color: white;
