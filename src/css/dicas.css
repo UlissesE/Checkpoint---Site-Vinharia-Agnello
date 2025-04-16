@@ -203,7 +203,7 @@ body {
     align-items: center;
     padding: 20px;
     max-width: 600px; 
-  margin-left: 20px; 
+    margin-left: 20px; 
   }
   
   fieldset {
@@ -290,3 +290,43 @@ body {
     background-color: #fce8d6;
     transition: background-color 0.3s ease;
   }
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Centraliza horizontalmente */
+}
+
+iframe {
+    border: none;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2); 
+    transition: transform 0.3s ease;
+  }
+  
+  iframe:hover {
+    transform: scale(1.02);
+}
+
+.rodape {
+  width: 100%; 
+  background-color: #3f0303;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  margin: 0; 
+}
+
+.rodape-conteudo {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}

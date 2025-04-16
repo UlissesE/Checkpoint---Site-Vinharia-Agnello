@@ -32,7 +32,7 @@
             <div class="container">
               <img class="imagem" src="../assets/imgs/vinhosDicas/vinhoTinto.jpg" alt="vinho tinto">
               <div class="texto">
-                <p style="font-size: 16px;">
+                <p class="text-small">
                   O Château Lafite Rothschild é um dos vinhos tintos mais prestigiados do mundo. Com aromas de frutas negras,
                   tabaco e cedro, e um paladar elegante e estruturado, este vinho é complexo, com taninos firmes e um final longo.
                   Combina perfeitamente com carnes vermelhas, como filé mignon, pato assado e queijos curados.
@@ -43,7 +43,7 @@
             <div class="container">
               <img class="imagem" src="../assets/imgs/vinhosDicas/vinho_cloudy_bay_sauvignon_blanc.jpg" alt="vinho branco">
               <div class="texto">
-                <p style="font-size: 18px;">
+                <p class="text-large">
                   Um vinho branco famoso e muito bem recomendado é o Cloudy Bay Sauvignon Blanc, da Nova Zelândia.
                   Ele é perfeito para acompanhar pratos mais leves, como frutos do mar, sushi, saladas frescas ou queijos de cabra.
                 </p>
@@ -53,7 +53,7 @@
             <div class="container">
               <img class="imagem" src="../assets/imgs/vinhosDicas/vinhoRose.jpg" alt="Vinho rosé">
               <div class="texto">
-                <p style="font-size: 16px;">
+                <p class="text-medium">
                   O Château d'Esclans Whispering Angel possui aroma fresco e delicado, com notas de frutas vermelhas como morango e framboesa,
                   e toques florais e cítricos. Leve e refrescante, com acidez equilibrada. Ideal para saladas, frutos do mar, sushi, queijos frescos,
                   frango grelhado e pratos mediterrâneos.
@@ -64,7 +64,7 @@
             <div class="container">
               <img class="imagem" src="../assets/imgs/vinhosDicas/vinhoEspumante.png" alt="Vinho espumante">
               <div class="texto">
-                <p style="font-size: 16px;">
+                <p class="text-small">
                   O Dom Pérignon possui aromas complexos de frutas maduras, pão fresco, amêndoas e toques de baunilha. Com o tempo, desenvolve notas de mel e tostado.
                   Sabor rico, com cremosidade. Perfeito para aperitivos como caviar ou ostra, frutos do mar como lagosta, ou pratos refinados como filet mignon.
                 </p>
@@ -74,7 +74,7 @@
             <div class="container">
               <img class="imagem" src="../assets/imgs/vinhosDicas/vinhoDoce.jpg" alt="Vinho doce">
               <div class="texto">
-                <p style="font-size: 16px;">
+                <p class="text-small">
                   O Château d’Yquem traz aromas intensos de damasco, mel, laranja cristalizada e flores brancas, com sabor doce, elegante e equilibrado.
                   Harmoniza com foie gras, queijos azuis, sobremesas com frutas e pratos apimentados da culinária asiática.
                   Reconhecido como um dos melhores vinhos doces do mundo.
@@ -85,7 +85,7 @@
             <div class="container">
               <img class="imagem" src="../assets/imgs/vinhosDicas/vinhoFortificado.png" alt="Vinho fortificado">
               <div class="texto">
-                <p style="font-size: 18px;">
+                <p class="text-large">
                   O vinho do Porto é um ótimo exemplo de vinho fortificado. Possui teor alcoólico mais elevado, aroma intenso e sabor doce ou seco.
                   Harmoniza com sobremesas, chocolates, queijos fortes e até charutos.
                 </p>
@@ -154,43 +154,50 @@
               <fieldset>
                <h2>Formulário para degustar</h2><br>
                 <p><strong>Preferências de vinhos:</strong><br>
-                  <input type="checkbox" name="tipo" value="branco"> Branco<br>
-                  <input type="checkbox" name="tipo" value="tinto"> Tinto<br>
-                  <input type="checkbox" name="tipo" value="rose"> Rose<br>
-                  <input type="checkbox" name="tipo" value="espumante"> Espumante<br>
-                  <input type="checkbox" name="tipo" value="doce"> Doce<br>
-                  <input type="checkbox" name="tipo" value="fortificado"> Fortificado
+                  <input type="checkbox" id="tipo-branco" name="tipo" value="branco" title="Escolha vinho branco">
+                  <label for="tipo-branco">Branco</label><br>
+                  <input type="checkbox" id="tipo-tinto" name="tipo" value="tinto" title="Escolha vinho tinto">
+                  <label for="tipo-tinto">Tinto</label><br>
+                  <input type="checkbox" id="tipo-rose" name="tipo" value="rose" title="Escolha vinho rose">
+                  <label for="tipo-rose">Rose</label><br>
+                  <input type="checkbox" id="tipo-espumante" name="tipo" value="espumante" title="Escolha vinho espumante">
+                  <label for="tipo-espumante">Espumante</label><br>
+                  <input type="checkbox" id="tipo-doce" name="tipo" value="doce" title="Escolha vinho doce">
+                  <label for="tipo-doce">Doce</label><br>
+                  <input type="checkbox" id="tipo-fortificado" name="tipo" value="fortificado" title="Escolha vinho fortificado">
+                  <label for="tipo-fortificado">Fortificado</label>
                 </p>
                 
                 <p>
                     <strong>Tipo de comida que você gostaria de degustar:</strong><br>
-                    <input type="radio" name="comida" value="frutosDom=Mar"> Frutos do mar<br>
-                    <input type="radio" name="comida" value="carne"> Carne<br>
-                    <input type="radio" name="comida" value="vegetariano"> Vegetariano<br>
-                    <input type="radio" name="comida" value="queijo"> Queijo<br>
-                    <input type="radio" name="comida" value="sobremesa"> Sobremesa<br>
+                    <input type="radio" id="frutos-do-mar" name="comida" value="frutos-do-mar" title="Escolha frutos do mar">
+                    <label for="frutos-do-mar">Frutos do mar</label><br>
+                    <input type="radio" name="comida" value="carne" title="Escolha carne"> Carne<br>
+                    <input type="radio" name="comida" value="vegetariano" title="Escolha vegetariano"> Vegetariano<br>
+                    <input type="radio" name="comida" value="queijo" title="Escolha queijo"> Queijo<br>
+                    <input type="radio" name="comida" value="sobremesa" title="Escolha sobremesa"> Sobremesa<br>
                 </p>
                 <p><strong>Horario de preferência para degustar:</strong><br>
-                  <select style="font-size: 20px;">
+                  <select class="select-style" title="Escolha o horário de preferência para degustar">
                     <option>Manhã</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                   </select>
                 </p>
           
-                <p style="font-size: 20px;"><strong>Email para contato:</strong><br>
-                  <input type="text" placeholder="Email" style="font-size: 20px;">
+                <p class="email-label"><strong>Email para contato:</strong><br>
+                  <input type="text" placeholder="Email" class="email-input">
                 </p>
             </select><br>
-            <button type="submit" style="font-size: 20px;" class="form-botao">Enviar</button>
+            <button type="submit" class="form-botao enviar-botao">Enviar</button>
               </fieldset>
               </form>
             </div>
 
-    <section class="tabela-uvas" style="padding: 20px;">
+    <section class="tabela-uvas">
       <h2>🍇 Principais Uvas Utilizadas nos Vinhos</h2>
-      <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; text-align: left; font-size: 18px;">
-        <thead style="background-color: #eee;">
+      <table class="styled-table" border="1" cellpadding="10" cellspacing="0">
+        <thead class="table-header">
           <tr>
             <th>Tipo de Uva</th>
             <th>Cor</th>
@@ -255,8 +262,25 @@
           </tr>
         </tbody>
       </table>
+
+    </section>
+    <div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ac559iPwbEs?si=QLs1mdLLshOr54OK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
     </section>
 
-        <script src="../js/dicas.js"></script>
-</body>
+
+
+    
+
+    <footer class="rodape">
+      <div class="rodape-conteudo">
+        <p>&copy; 2025 Vinheria Agnello • Todos os direitos reservados</p>
+        <p>Rua dos Vinhos, 123 • São Paulo - SP</p>
+        <p>contato@vinheriaagnello.com</p>
+      </div>
+    </footer>
+
+    <script src="../js/dicas.js"></script>
+  </body>
 </html>
