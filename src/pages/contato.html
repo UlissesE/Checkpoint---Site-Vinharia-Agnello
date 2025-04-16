@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com a Vinheria Agnello. Tire suas dúvidas, envie sugestões ou faça reclamações. Estamos prontos para ajudar!">
+  <meta name="keywords" content="vinhos, contato, atendimento, Vinheria Agnello, dúvidas, sugestões, reclamações, entrega, pagamento, devolução">
+  <title>Contato</title>
+  <link rel="icon" href="/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/contato.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-vinheria">
+      <a href="../../index.html"><img src="/favicon-32x32.png" alt="Logo Vinheria Agnello" /></a>
+      <a href="../../index.html"><span>Vinheria Agnello</span></a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="dicas.html">Dicas</a></li>
+        <li><a href="sobre_nos.html">Sobre Nós</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <div class="container">
+    <section class="page-hero">
+      <div class="conteudo_page-hero">
+        <h1>Fale conosco</h1>
+        <p>Estaremos aqui para te ajudar!</p>
+      </div>
+    </section>
+
+    <section class="section-form">
+      <div class="form">
+        <form method="post" id="form__contato">
+          <fieldset>
+            <div class="form__title">
+              <h1>Formulário para contato</h1>
+              <h3>Estamos ansiosos para te ouvir 😊</h3>
+              <br>
+            </div>
+            <div class="form__content">
+              <label for="nome">
+                <strong>Qual seu nome?</strong>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome aqui">
+              </label><br>
+    
+              <label for="email">
+                <strong>Qual seu email para contato?</strong>
+                <input type="email" id="email" name="email" required placeholder="Seu email aqui">
+              </label><br>
+    
+              <label for="telefone">
+                <strong>Qual seu telefone para contato?</strong>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx"  minlength="9" maxlength="14" />
+              </label><br>
+    
+              <p><strong>Qual o motivo do contato?</strong></p>
+              <label><input type="radio" name="motivo" value="duvidas-produtos"> 📦 Dúvidas sobre produtos</label><br>
+              <label><input type="radio" name="motivo" value="info-entrega"> 🚚 Informações sobre entrega</label><br>
+              <label><input type="radio" name="motivo" value="problema-pagamento"> 💳 Problemas com pagamento</label><br>
+              <label><input type="radio" name="motivo" value="sugestao"> 🍷 Sugestão de vinho ou serviço</label><br>
+              <label><input type="radio" name="motivo" value="troca"> 🛒 Troca ou devolução</label><br>
+              <label><input type="radio" name="motivo" value="elogio-ou-reclamacao"> 📢 Reclamações ou elogios</label><br>
+              <label><input type="radio" name="motivo" value="outros"> 💬 Outros assuntos</label><br>
+
+              <label for="mensagem">
+                <strong>Deixe sua mensagem:</strong>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+              </label><br>
+              
+        
+
+              <button type="submit" class="btn-enviar">Enviar mensagem</button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    
+    <section class="atendimento">
+      <div class="canal">
+        <h2>Canal de Atendimento</h2>
+        <p>Tem duvidas? Ligue para a gente!</p>
+        <div class="telefone">
+        <div class="telefone-info">
+        <span>📞 (11) 9999-9999</span>
+        <p>8h às 12h - 13h às 18h</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="canal">
+        <h2>Canal de Ouvidoria</h2>
+        <p>Alguma reclamação a fazer? Somos todo ouvidos!</p>
+        <div class="telefone">
+          <div class="telefone-info">
+          <span>📞 (11) 9999-9999</span>
+          <p>8h às 12h - 13h às 18h</p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+  </div>
+  
+  <footer>
+    <p>© 2025 – Todos os direitos reservados</p>
+  </footer>
+</body>
+
+</html>
