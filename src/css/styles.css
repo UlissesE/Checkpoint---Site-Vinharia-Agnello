@@ -1,20 +1,20 @@
 html, body {
   height: 100%;
-  margin: 0; /* Garantir que não haja margem extra */
+  margin: 0; 
 }
 
 body {
   font-family: Arial, sans-serif;
   background-image: url('../assets/imgs/vinho_derramando.jpg');
-  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
-  background-position: center; /* Centraliza a imagem */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
-  background-attachment: fixed; /* A imagem permanece fixa enquanto o conteúdo rola (opcional) */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
   position: relative;
   z-index: 0;
 }
 
-/* Sombra escura sobre o fundo */
+/* Sombra no fundo */
 body::before {
   content: "";
   position: fixed;
@@ -22,8 +22,8 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Sombra escura para a imagem */
-  z-index: -1; /* Garante que a sombra fique atrás do conteúdo */
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: -1; /* Sombra atras */
 }
 
 
