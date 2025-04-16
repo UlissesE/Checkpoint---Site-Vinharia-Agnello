@@ -114,13 +114,37 @@ form fieldset {
    background-color: #3a0f0f;
 }
 
+.atendimento {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 10vh 10vh;
+    gap: 5%;
+    background-color: gainsboro;
+}
+
+.canal {
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 50vh;
+    padding: 0 1%;
+
+}
+
+.canal h2, .canal p {
+    text-align: center;
+}
+
+.canal .telefone {
+    margin-top: 30px;
+    justify-content: center;
+}
+
 footer {
     background-color: #6d0b0b;
     color: white;
     text-align: center;
     font-size: 0.9em;
     padding: 50px;
-    bottom: 0;
     position: relative;
-    width: 100%;
 }
