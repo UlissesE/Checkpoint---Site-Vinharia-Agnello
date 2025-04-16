@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html, body {
   height: 100%;
   margin: 0; 
@@ -14,7 +20,6 @@ body {
   z-index: 0;
 }
 
-/* Sombra no fundo */
 body::before {
   content: "";
   position: fixed;
@@ -80,15 +85,6 @@ main {
   padding: 20px;
 }
 
-footer {
-  background-color: #6d0b0b;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  bottom: 0;
-  width: 100%;
-}
 
 /* Carrossel */
 
@@ -175,3 +171,13 @@ footer {
 .titulo {
   text-align: center;
 }
+
+  footer {
+    background-color: #6d0b0b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    bottom: 0;
+    width: 100%;
+  }
