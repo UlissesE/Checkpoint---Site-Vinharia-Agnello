@@ -72,6 +72,33 @@ A proposta é criar uma solução digital que traduza o atendimento consultivo d
 
 <hr>
 
+<h2>✨ Efeitos Visuais com CSS</h2>
+
+<p>Para enriquecer a experiência do usuário, implementamos animações e interações visuais utilizando recursos avançados de CSS, como <code>@keyframes</code> e pseudo-classes.</p>
+
+<h3>🎞️ Animações com <code>@keyframes</code></h3>
+
+<p>Utilizamos a regra <code>@keyframes</code> para criar animações suaves e atrativas em elementos-chave das páginas:</p>
+<ul>
+  <li><strong>Página Inicial</strong>: Animações de entrada para o cabeçalho, proporcionando uma introdução elegante ao site.</li>
+  <li><strong>Sobre Nós</strong>: Efeitos de transição que destacam a história e os valores da vinheria.</li>
+  <li><strong>Contato</strong>: Animações que realçam o formulário de contato, incentivando a interação do usuário.</li>
+</ul>
+
+<p>Essas animações foram definidas com <code>@keyframes</code>, permitindo transições suaves de propriedades como opacidade, posição e cor.</p>
+
+<h3>🖱️ Interações com Pseudo-classes</h3>
+
+<p>Implementamos pseudo-classes para melhorar a interatividade dos elementos:</p>
+<ul>
+  <li><code>:hover</code>: Alterações visuais em botões e links quando o usuário passa o cursor sobre eles, fornecendo feedback imediato.</li>
+  <li><code>:focus</code>: Destaque em campos de formulário quando selecionados, melhorando a usabilidade.</li>
+</ul>
+
+<p>Essas pseudo-classes permitem estilizar elementos com base em seu estado, enriquecendo a experiência do usuário.</p>
+
+<hr>
+
 <h2>🚀 Como visualizar o site</h2>
 
 Você pode visualizar o site de duas maneiras:
