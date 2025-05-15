@@ -69,6 +69,11 @@ nav ul li a {
     min-height: 100vh;
 }
 
+.section-form:first-child {
+    background-color: #6d0b0b;
+    color: white;
+}
+
 
 .form {
     width: 100%;
@@ -81,7 +86,7 @@ form fieldset {
     box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2); 
     padding: 20px;
     border-radius: 10px;
-    transition: transform 0.2s;
+    transition: transform 1.2s;
 }
 
 form fieldset:hover {
@@ -91,6 +96,11 @@ form fieldset:hover {
 .form__title {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.form__title h1::after {
+  content: " ✉️";
+  color: #6d0b0b;
 }
 
 .form__content label {
@@ -104,23 +114,38 @@ form fieldset:hover {
     margin-top: 4px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+
+#nome:focus, #email:focus, #telefone:focus{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 5px;
+    height: 18px;    
+    background-color: white;
+    border-color: #910000ad;
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2);
+    outline: none;
 }
 
 textarea {
     width: 100%;
-    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     resize: vertical;
     margin-top: 10px;
     margin-bottom: 20px;
+    transition: 0.5s;
   }
   
   textarea:focus {
-    border-color: #6c63ff;
+    border-color: #910000ad;
     outline: none;
-    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2);
   }
 
 .btn-enviar {
@@ -133,8 +158,15 @@ textarea {
     font-size: 16px;
 }
 
+.btn-enviar::before {
+  content: "📤 ";
+}
+
 .btn-enviar:hover {
-   background-color: #3a0f0f;
+  background-color: #910000ad;
+  color: #fff;
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 .atendimento {
@@ -146,16 +178,21 @@ textarea {
     background-color: gainsboro;
 }
 
+
 .canal {
     border: 1px solid black;
     border-radius: 10px;
     min-width: 50vh;
     padding: 0 1%;
-    transition: transform 0.2s;
+    transition: 0.5s;
+    animation: pulse 4s infinite
 }
 
 .canal:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2);
+    border-color: #910000ad;
 }
 
 .canal h2, .canal p {
@@ -173,7 +210,7 @@ textarea {
 .telefone img {
     width: 20px;
     height: 20px;
-    margin-top: 2px; /* ajuste fino se necessário */
+    margin-top: 2px;
   }
 
 .telefone-info {
@@ -190,4 +227,18 @@ footer {
     font-size: 0.9em;
     padding: 50px;
     position: relative;
+}
+
+.img__bottle {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    z-index: -1;
+    animation: vinhoDerramando 5s infinite; 
+}
+
+label input[type="radio"] {
+    font-weight: bold;
 }

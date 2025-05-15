@@ -1,0 +1,29 @@
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: none;
+        border-color: none;
+    }	
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2);
+        border-color: #910000ad;
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: none;
+        border-color: none;
+    }
+}
+
+@keyframes vinhoDerramando {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(80deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
