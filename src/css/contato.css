@@ -229,7 +229,7 @@ footer {
     position: relative;
 }
 
-.img__bottle {
+#bottle1 {
     width: 300px;
     height: auto;
     position: absolute;
@@ -239,6 +239,17 @@ footer {
     animation: vinhoDerramando 5s infinite; 
 }
 
-label input[type="radio"] {
+#bottle2 {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    bottom: -400px;
+    right: 10%;
+    z-index: -1;
+    animation: vinhoDerramandoInvertido 5s infinite; 
+    animation-delay: 2.5s;
+}
+
+input[type="radio"]:checked + span {
     font-weight: bold;
 }
