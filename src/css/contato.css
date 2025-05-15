@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+header {
+    display: flex;
+    background-color: #6d0b0b;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+}
+  
+.logo-vinheria {
+    display: flex;
+    align-items: center;
+}
+  
+.logo-vinheria img {
+    margin-right: 10px;
+    width: 50px;
+    height: auto;
+}
+  
+.logo-vinheria span {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+  
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+  
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-hero {
+    height: 20vh;
+    padding: 5rem 5rem;
+    background-color: gainsboro;
+}
+
+.conteudo_page-hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+
+.section-form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5vh;
+    min-height: 100vh;
+}
+
+.section-form:first-child {
+    background-color: #6d0b0b;
+    color: white;
+}
+
+
+.form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+form fieldset {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2); 
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 1.2s;
+}
+
+form fieldset:hover {
+    transform: scale(1.03);
+}
+
+.form__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form__title h1::after {
+  content: " ✉️";
+  color: #6d0b0b;
+}
+
+.form__content label {
+  display: block;
+  margin: 10px 10px 5px 0;
+}
+
+#nome, #email, #telefone{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    transition: 0.5s;
+}
+
+
+#nome:focus, #email:focus, #telefone:focus{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 5px;
+    height: 18px;    
+    background-color: white;
+    border-color: #910000ad;
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2);
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+  }
+  
+  textarea:focus {
+    border-color: #910000ad;
+    outline: none;
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2);
+  }
+
+.btn-enviar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6d0b0b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.btn-enviar::before {
+  content: "📤 ";
+}
+
+.btn-enviar:hover {
+  background-color: #910000ad;
+  color: #fff;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.atendimento {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    padding: 10vh 10vh;
+    gap: 5%;
+    background-color: gainsboro;
+}
+
+
+.canal {
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 50vh;
+    padding: 0 1%;
+    transition: 0.5s;
+    animation: pulse 4s infinite
+}
+
+.canal:hover {
+    transform: scale(1.05);
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(109, 11, 11, 0.2);
+    border-color: #910000ad;
+}
+
+.canal h2, .canal p {
+    text-align: center;
+}
+
+.canal .telefone {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.telefone img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+  }
+
+.telefone-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    background-color: #6d0b0b;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 50px;
+    position: relative;
+}
+
+.img__bottle {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    z-index: -1;
+    animation: vinhoDerramando 5s infinite; 
+}
+
+label input[type="radio"] {
+    font-weight: bold;
+}
