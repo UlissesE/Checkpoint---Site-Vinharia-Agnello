@@ -181,3 +181,14 @@ main {
     bottom: 0;
     width: 100%;
   }
+
+.texto-apr:hover, .eventos:hover {
+  background-color: #8b0000; 
+  color: white; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+  transform: scale(1.1);
+}
+
+li {
+  list-style-type: none ;
+}

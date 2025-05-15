@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Entre em contato com a Vinheria Agnello. Tire suas dúvidas, envie sugestões ou faça reclamações. Estamos prontos para ajudar!">
-  <meta name="keywords" content="vinhos, contato, atendimento, Vinheria Agnello, dúvidas, sugestões, reclamações, entrega, pagamento, devolução">
+  <meta name="description"
+    content="Entre em contato com a Vinheria Agnello. Tire suas dúvidas, envie sugestões ou faça reclamações. Estamos prontos para ajudar!">
+  <meta name="keywords"
+    content="vinhos, contato, atendimento, Vinheria Agnello, dúvidas, sugestões, reclamações, entrega, pagamento, devolução">
   <title>Contato</title>
   <link rel="icon" href="/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="../css/contato.css">
+  <link rel="stylesheet" href="../css/efeitos.css">
 </head>
 
 <body>
@@ -37,6 +40,8 @@
     </section>
 
     <section class="section-form">
+      <img src="../assets/imgs/iconesContato/wine-bottle-icon-free-png.webp" alt="" class="img__bottle" id="bottle1">
+      <img src="../assets/imgs/iconesContato/wine-bottle-icon-free-png.webp" alt="" class="img__bottle" id="bottle2">
       <div class="form">
         <form method="post" id="form__contato">
           <fieldset>
@@ -50,32 +55,37 @@
                 <strong>Qual seu nome?</strong>
                 <input type="text" id="nome" name="nome" required placeholder="Seu nome aqui">
               </label><br>
-    
+
               <label for="email">
                 <strong>Qual seu email para contato?</strong>
                 <input type="email" id="email" name="email" required placeholder="Seu email aqui">
               </label><br>
-    
+
               <label for="telefone">
                 <strong>Qual seu telefone para contato?</strong>
-                <input type="tel" id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx"  minlength="9" maxlength="14" />
+                <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" minlength="9"
+                  maxlength="14">
               </label><br>
-    
+
               <p><strong>Qual o motivo do contato?</strong></p>
-              <label><input type="radio" name="motivo" value="duvidas-produtos"> 📦 Dúvidas sobre produtos</label><br>
-              <label><input type="radio" name="motivo" value="info-entrega"> 🚚 Informações sobre entrega</label><br>
-              <label><input type="radio" name="motivo" value="problema-pagamento"> 💳 Problemas com pagamento</label><br>
-              <label><input type="radio" name="motivo" value="sugestao"> 🍷 Sugestão de vinho ou serviço</label><br>
-              <label><input type="radio" name="motivo" value="troca"> 🛒 Troca ou devolução</label><br>
-              <label><input type="radio" name="motivo" value="elogio-ou-reclamacao"> 📢 Reclamações ou elogios</label><br>
-              <label><input type="radio" name="motivo" value="outros"> 💬 Outros assuntos</label><br>
+              <label><input type="radio" name="motivo" value="duvidas-produtos"> 📦 <span>Dúvidas sobre
+                  produtos</span></label><br>
+              <label><input type="radio" name="motivo" value="info-entrega"> 🚚 <span>Informações sobre
+                  entrega</span></label><br>
+              <label><input type="radio" name="motivo" value="problema-pagamento"> 💳 <span>Problemas com
+                  pagamento</span></label><br>
+              <label><input type="radio" name="motivo" value="sugestao"> 🍷 <span>Sugestão de vinho ou
+                  serviço</span></label><br>
+              <label><input type="radio" name="motivo" value="troca"> 🛒 <span>Troca ou devolução</span></label><br>
+              <label><input type="radio" name="motivo" value="elogio-ou-reclamacao"> 📢 <span>Reclamações ou
+                  elogios</span></label><br>
+              <label><input type="radio" name="motivo" value="outros"> 💬 <span>Outros assuntos</span></label><br>
 
               <label for="mensagem">
                 <strong>Deixe sua mensagem:</strong>
-                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."
+                  required></textarea>
               </label><br>
-              
-        
 
               <button type="submit" class="btn-enviar">Enviar mensagem</button>
             </div>
@@ -83,16 +93,16 @@
         </form>
       </div>
     </section>
-    
+
     <section class="atendimento">
       <div class="canal">
         <h2>Canal de Atendimento</h2>
         <p>Tem duvidas? Ligue para a gente!</p>
         <div class="telefone">
-        <div class="telefone-info">
-        <span>📞 (11) 9999-9999</span>
-        <p>8h às 12h - 13h às 18h</p>
-        </div>
+          <div class="telefone-info">
+            <span>📞 (11) 9999-9999</span>
+            <p>8h às 12h - 13h às 18h</p>
+          </div>
         </div>
       </div>
 
@@ -101,16 +111,16 @@
         <p>Alguma reclamação a fazer? Somos todo ouvidos!</p>
         <div class="telefone">
           <div class="telefone-info">
-          <span>📞 (11) 9999-9999</span>
-          <p>8h às 12h - 13h às 18h</p>
+            <span>📞 (11) 9999-9999</span>
+            <p>8h às 12h - 13h às 18h</p>
           </div>
         </div>
       </div>
-      
+
     </section>
 
   </div>
-  
+
   <footer>
     <p>&copy; 2025 Vinheria Agnello • Todos os direitos reservados</p>
     <p>Rua dos Vinhos, 123 • São Paulo - SP</p>

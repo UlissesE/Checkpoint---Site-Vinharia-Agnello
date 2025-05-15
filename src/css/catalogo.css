@@ -110,7 +110,6 @@ nav ul li a {
 
 .item:hover {
   box-shadow: 0 0 3px black;
-  overflow-y: scroll;
   transform: scale(1.03);
 }
 
