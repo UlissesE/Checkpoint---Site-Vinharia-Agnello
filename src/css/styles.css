@@ -154,6 +154,7 @@ main {
   margin: 20px auto;
   border-radius: 10px;
   max-width: 900px;
+  transition: 0.3s;
 }
 
 .texto-apr {
@@ -185,7 +186,7 @@ main {
 .texto-apr:hover, .eventos:hover {
   background-color: #8b0000; 
   color: white; 
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: 0.3s;
   transform: scale(1.1);
 }
 
