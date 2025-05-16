@@ -193,3 +193,5 @@ main {
 li {
   list-style-type: none ;
 }
+
+@import url(efeitos.css);
