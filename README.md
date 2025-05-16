@@ -97,6 +97,20 @@ A proposta é criar uma solução digital que traduza o atendimento consultivo d
 
 <p>Essas pseudo-classes permitem estilizar elementos com base em seu estado, enriquecendo a experiência do usuário.</p>
 
+<h3>🎨 Pseudo-elementos e Transições</h3>
+
+<p>Pseudo-elementos como <code>::before</code> e <code>::after</code> são utilizados para adicionar detalhes decorativos e ícones, enriquecendo a identidade visual do site. Além disso, transições suaves foram aplicadas em elementos interativos, tornando as mudanças de estado mais naturais e agradáveis para o usuário.</p>
+
+<h3>🔄 Transformações e Animações Extras</h3>
+
+<p>Transformações CSS, como <code>scale</code> e <code>rotate</code>, foram empregadas para criar efeitos de destaque em botões, imagens e cards, proporcionando uma experiência visual mais dinâmica. Essas transformações, combinadas com transições e animações, elevam o padrão visual do site. Alguns exemplos disso estão nas páginas:</p>
+
+<ul>
+  <li><strong>Página Inicial</strong>: Box de texto ampliada ao passar o mouse por cima, com <code>:hover</code>.</li>
+  <li><strong>Catálogo</strong>: Item card ampliada ao utilizar o <code>:hover</code></li>
+  <li><strong>Contato</strong>: Formulário ampliado no momento de interação com ele.</li>
+</ul>
+
 <hr>
 
 <h2>🚀 Como visualizar o site</h2>
